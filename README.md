@@ -23,6 +23,9 @@ https://photonstorm.github.io/phaser3-docs/
 ## The official examples
 https://phaser.io/examples/v3
 
+## Phaser 3 FAQ
+https://github.com/samme/phaser3-faq
+
 ## Examples list
 Below are all the examples from this repository with a note exaplaing what the example explains
 * [createCursorKeys](https://github.com/manno-xx/Phaser3CMD/tree/master/CursorKeys) How to respond to the cursor keys to control some in-game object
