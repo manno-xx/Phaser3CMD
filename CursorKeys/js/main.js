@@ -26,7 +26,7 @@ function preload() {
  * and initilizes the cursor keys
  */
 function create() {
-    phaserLogo = this.add.sprite(
+    phaserLogo = this.add.image(
         this.cameras.main.centerX,
         this.cameras.main.centerY,
         "logo"
