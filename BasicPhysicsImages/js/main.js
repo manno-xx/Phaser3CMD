@@ -21,17 +21,15 @@ function preload(){
 /**
  * Create the graphic objects and initialise physics
  *
- * Because the anchor point of the objects are not in the top-left,
- *    the bodies for the objects need to be offset manually (here using setCircle() and setSize())
  */
 function create() {
 
-    // Adding sprites and images to the physics world can be done using the PHysics Factory
+    // Adding sprites and images (and some more) to the physics world can be done using the Physics Factory (https://photonstorm.github.io/phaser3-docs/Phaser.Physics.Arcade.Factory.html)
     ball = this.physics.add.image(400, 0, "ball");
     ball.body.collideWorldBounds = true;
     ball.body.bounce.y = 0.8;
 
-    // Because the Physics Factory does not create tiled sprites, it needs to be created through the GameObjects Factory
+    // Because the Physics Factory cannot not create tiled sprites, it needs to be created through the GameObjects Factory
     // create a tiled sprite object (https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.GameObjectFactory.html#tileSprite__anchor)
     // measurements are a maybe bit weird as the image used for the tiledsprite had a transparent area in the bottom half
     floor = this.add.tileSprite(400, this.cameras.main.height - 20, 800, 40, "shroom");

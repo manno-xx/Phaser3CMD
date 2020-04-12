@@ -18,8 +18,6 @@ var floor;
 /**
  * Create the graphic objects and initialise physics
  *
- * Because the anchor point of the objects are not in the top-left,
- *    the bodies for the objects need to be offset manually (here using setCircle() and setSize())
  */
 function create() {
 
