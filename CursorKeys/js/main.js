@@ -31,6 +31,8 @@ function create() {
         this.cameras.main.centerY,
         "logo"
     );
+
+    // this is what the demo is about. Initializing the cursor keys (or arrow keys) so that you can check if they are being pressed or not (see function update())
     cursors = this.input.keyboard.createCursorKeys();
 }
 
@@ -38,6 +40,9 @@ function create() {
  * Update checks the state of the cursor keys and moves the logo accordingly
  */
 function update() {
+
+
+    // here each if statement checks another of the four cursor keys. If it is currently down, the logo is moved by one pixel
     if (cursors.left.isDown) {
         phaserLogo.x--;
     }
