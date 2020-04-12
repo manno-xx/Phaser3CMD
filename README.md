@@ -15,7 +15,9 @@ Lazy as I am, I rely on the defer attribute of the script tag. This means I do n
 
 Although these examples may be referred to in class, it is a project maintained by me but paid for by no one. Requests for extra examples may therefore be denied based on time available (or the lack thereof)...
 
-If you want to post a request or find a bug, please use the Issues feature of Github to notify me. Easier to track IMHO than email or the various other channels
+If you want to post a request or find a bug, please use the Issues feature of Github to notify me. Easier to track IMHO than email or the various other channels.
+
+A number of images are used and from different sources. Attention _is_ being paid to licences but a special shout-out to http://www.kenney.nl for his free assetspacks used in this repository.
 
 ## The official API docs
 https://photonstorm.github.io/phaser3-docs/
