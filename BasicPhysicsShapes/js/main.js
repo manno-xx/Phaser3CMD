@@ -1,10 +1,15 @@
 /**
- * Demo of basic physics
- *
+ * This demo demonstrates the most basic physics using sprites:
+ *   A ball bounces on the floor.
+ * 
  * In this demo there are no loaded graphics.
  * Instead of sprites, shape object are used. Shape objects can be used for simple ... shapes (in this case a circle and a rectangle).
  * https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.Shape.html
+ * 
+ * In update() Phaser is told to check collisions between the circle and the floor.
+ *   If such a collision takes place, Phaser makes things behave as in the 'real world'
  *
+ * The ball, by the way, also is told to bounce with the edges of the world. This way it cannot leave the screen permanently.
  */
 
 var ball;

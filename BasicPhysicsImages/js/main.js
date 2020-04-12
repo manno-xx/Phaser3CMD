@@ -1,9 +1,13 @@
 /**
  * Demo of basic physics
  *
- * In this demo there are no loaded graphics.
- * Instead of a sprite, a graphics object is used. Graphics objects can be drawn onto (in this case a circle and a rectangle).
+ * This demo demonstrates the most basic physics using sprites:
+ *   A ball bounces on the floor.
+ * 
+ * In update() Phaser is told to check collisions between the ball and the floor.
+ *   If such a collision takes place, Phaser makes things behave as in the 'real world'
  *
+ * The ball, by the way, also is told to bounce with the edges of the world. This way it cannot leave the screen permanently.
  */
 
 var ball;
