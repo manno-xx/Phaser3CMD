@@ -8,10 +8,12 @@ These examples build, as much as possible, upon content from earlier classes (Pr
 
 ## What does that mean, mainly building on prior knowledge?
 
-I try to avoid ES6 features unless there is no easy alternative. So:
+This repository is used in a course which is preceeded by a course on P5JS (using mailnly [Khan Academy's Intro to JS: Drawing and Animation](https://www.khanacademy.org/computing/computer-programming/programming). In that course, there was no ES6 so, this repository tries to avoid ES6 features unless there is no easy alternative. So:
 
 * the exmples use var over let. Just bc Khan Academy still used vars.
 * the examples will use object literals where possible over classes.
+
+There _may_ be ES6 examples because it is there and for a reason. Those examples will be marked as such in the list below.
 
 ## Some 'random' notes
 
