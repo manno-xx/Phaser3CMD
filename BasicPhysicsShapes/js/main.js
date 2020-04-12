@@ -39,14 +39,15 @@ function create() {
     this.physics.world.enable(floor);
     floor.body.allowGravity = false;
     floor.body.immovable = true;
+
+    // this line makes sure that the ball and floor behave as expected when they collide
+    this.physics.add.collider(ball, floor);
 }
 
 /**
- * Let Phaser do the collision check between ball and floor
- * Phaser deals with the collision according to physics laws and settings (like gravity and bouncyness)
+ * Nothing to see here, move along please
  */
 function update() {
-    this.physics.collide(ball, floor);
 }
 
 
