@@ -29,7 +29,7 @@ class menuScene extends Phaser.Scene {
         console.log("menu create");
 
         // to be able to respond to input, a sprite or an image must be set to be interactive
-        var button = this.add.image(100, 100, "button")
+        var button = this.add.image(100, 100, "button");
         button.setInteractive();
 
         button.on('pointerdown', function(){
