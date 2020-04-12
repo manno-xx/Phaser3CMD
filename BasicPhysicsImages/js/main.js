@@ -4,6 +4,8 @@
  * This demo demonstrates the most basic physics using sprites:
  *   A ball bounces on the floor.
  * 
+ * After creating the graphic elements, Phaser is told to monitor for collisions and act accordingly
+ * 
  * In update() Phaser is told to check collisions between the ball and the floor.
  *   If such a collision takes place, Phaser makes things behave as in the 'real world'
  *

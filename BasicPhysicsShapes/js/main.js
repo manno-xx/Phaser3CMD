@@ -6,9 +6,8 @@
  * Instead of sprites, shape object are used. Shape objects can be used for simple ... shapes (in this case a circle and a rectangle).
  * https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.Shape.html
  * 
- * In update() Phaser is told to check collisions between the circle and the floor.
- *   If such a collision takes place, Phaser makes things behave as in the 'real world'
- *
+ * After creating the graphic elements, Phaser is told to monitor for collisions and act accordingly
+ * 
  * The ball, by the way, also is told to bounce with the edges of the world. This way it cannot leave the screen permanently.
  */
 
