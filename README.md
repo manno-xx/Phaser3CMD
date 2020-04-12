@@ -32,6 +32,8 @@ If you want to post a request or find a bug, please use the Issues feature of Gi
 
 A number of images are used and from different sources. Attention _is_ being paid to licences but a special shout-out to <http://www.kenney.nl> for his free assetspacks used in this repository.
 
+Another source of assets is <http://labs.phaser.io/assets/>. Don't think I would use those in a project because it's hard to tell where they come from, but I took the liberty to use some assets for these examples.
+
 ## The official API docs
 
 <https://photonstorm.github.io/phaser3-docs/>
@@ -49,15 +51,16 @@ A number of images are used and from different sources. Attention _is_ being pai
 
 ### Week 0
 
-* [Basic template with one scene](https://github.com/manno-xx/Phaser3CMD/tree/master/SIngleSceneTemplate)
-* [Basic template with two scenes](https://github.com/manno-xx/Phaser3CMD/tree/master/MultiSceneTemplate)
-* [Template for multiple scenes using classes](https://github.com/manno-xx/Phaser3CMD/tree/master/MultiSceneTemplateClass) (ES6)
+* [SIngleSceneTemplate](https://github.com/manno-xx/Phaser3CMD/tree/master/SIngleSceneTemplate) A template you can use to build a Phaser project with just a single scene (most likey just for testing something)
+* [MultiSceneTemplate](https://github.com/manno-xx/Phaser3CMD/tree/master/MultiSceneTemplate) A template you can use to build a Phaser project using multiple scenes. For the more serious projects.
+* [MultiSceneTemplateClass](https://github.com/manno-xx/Phaser3CMD/tree/master/MultiSceneTemplateClass) (ES6) A template you can use to build a Phaser project using multiple scenes. For the more serious projects and people liking to work with classes.
 
 ### Week 1
 
 * Introduction
-* Sprites
-* Input
+* [SpritesBasic](https://github.com/manno-xx/Phaser3CMD/tree/master/SpritesBasic) A simple display of sprites/images.
+* [CursorKeys](https://github.com/manno-xx/Phaser3CMD/tree/master/CursorKeys) How to respond to the cursor keys to control some in-game object.
+* [KeyboardInteraction](https://github.com/manno-xx/Phaser3CMD/tree/master/KeyboardInteraction) Pressing a key and have Phaser only respond once, even if you keep it pressed.
 
 ### Week 2
 
@@ -89,4 +92,9 @@ Below are all the examples from this repository with a note exaplaing what the e
 
 * [BasicPhysicsImages](https://github.com/manno-xx/Phaser3CMD/tree/master/BasicPhysicsImages) A very basic physics setup using an image and a tiled sprite (repeating image in a single sprite.
 * [BasicPhysicsShapes](https://github.com/manno-xx/Phaser3CMD/tree/master/BasicPhysicsShapes) A very basic physics setup using only graphic shapes, no images.).
+* [SIngleSceneTemplate](https://github.com/manno-xx/Phaser3CMD/tree/master/SIngleSceneTemplate) A template you can use to build a Phaser project with just a single scene (most likey just for testing something)
+* [KeyboardInteraction](https://github.com/manno-xx/Phaser3CMD/tree/master/KeyboardInteraction) Pressing a key and have Phaser only respond once, even if you keep it pressed.
+* [MultiSceneTemplate](https://github.com/manno-xx/Phaser3CMD/tree/master/MultiSceneTemplate) A template you can use to build a Phaser project using multiple scenes. For the more serious projects.
 * [CursorKeys](https://github.com/manno-xx/Phaser3CMD/tree/master/CursorKeys) How to respond to the cursor keys to control some in-game object.
+* [MultiSceneTemplateClass](https://github.com/manno-xx/Phaser3CMD/tree/master/MultiSceneTemplateClass) (ES6) A template you can use to build a Phaser project using multiple scenes. For the more serious projects and people liking to work with classes.
+* [SpritesBasic](https://github.com/manno-xx/Phaser3CMD/tree/master/SpritesBasic) A simple display of sprites/images.
