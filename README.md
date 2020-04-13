@@ -74,8 +74,8 @@ Another source of assets is <http://labs.phaser.io/assets/>. Don't think I would
 
 ### Week 4
 
-* [BasicPhysicsImages](https://github.com/manno-xx/Phaser3CMD/tree/master/BasicPhysicsImages) A very basic physics setup using an image and a tiled sprite (repeating image in a single sprite.
-* [BasicPhysicsShapes](https://github.com/manno-xx/Phaser3CMD/tree/master/BasicPhysicsShapes) A very basic physics setup using only graphic shapes, no images.).
+* [BasicPhysicsColliderImages](https://github.com/manno-xx/Phaser3CMD/tree/master/BasicPhysicsColliderImages) A very basic physics setup using an image and a tiled sprite (repeating image in a single sprite) The physics setup is that of collision and 'normal, real life response'.
+* [BasicPhysicsColliderShapes](https://github.com/manno-xx/Phaser3CMD/tree/master/BasicPhysicsColliderShapes) A very basic physics setup using only graphic shapes. The physics setup is that of collision and 'normal, real life response').
 
 ### Week 5
 
@@ -89,8 +89,8 @@ Another source of assets is <http://labs.phaser.io/assets/>. Don't think I would
 
 Below are all the examples from this repository with a note exaplaing what the example explains
 
-* [BasicPhysicsImages](https://github.com/manno-xx/Phaser3CMD/tree/master/BasicPhysicsImages) A very basic physics setup using an image and a tiled sprite (repeating image in a single sprite.
-* [BasicPhysicsShapes](https://github.com/manno-xx/Phaser3CMD/tree/master/BasicPhysicsShapes) A very basic physics setup using only graphic shapes, no images.).
+* [BasicPhysicsColliderImages](https://github.com/manno-xx/Phaser3CMD/tree/master/BasicPhysicsColliderImages) A very basic physics setup using an image and a tiled sprite (repeating image in a single sprite) The physics setup is that of collision and 'normal, real life response'.
+* [BasicPhysicsColliderShapes](https://github.com/manno-xx/Phaser3CMD/tree/master/BasicPhysicsColliderShapes) A very basic physics setup using only graphic shapes. The physics setup is that of collision and 'normal, real life response').
 * [SIngleSceneTemplate](https://github.com/manno-xx/Phaser3CMD/tree/master/SIngleSceneTemplate) A template you can use to build a Phaser project with just a single scene (most likey just for testing something)
 * [KeyboardInteraction](https://github.com/manno-xx/Phaser3CMD/tree/master/KeyboardInteraction) Pressing a key and have Phaser respond only once, even if you keep it pressed.
 * [KeyIsDown](https://github.com/manno-xx/Phaser3CMD/tree/master/KeyIsDown) Check if a certain key is pressed and act upon it. A simplified version of CursorKeys
