@@ -39,7 +39,7 @@ Another source of assets is <http://labs.phaser.io/assets/>. Don't think I would
 * [The official API docs](https://photonstorm.github.io/phaser3-docs/)
 * [The official examples](https://phaser.io/examples/)
 * [Phaser 3 FAQ 1](https://github.com/phaser-discord/community/blob/master/FAQ.md)
-* [Phaser 3 FAQ 1](https://github.com/samme/phaser3-faq)
+* [Phaser 3 FAQ 2](https://github.com/samme/phaser3-faq)
 * [Phaser Discord channel](https://discord.gg/phaser)
 * [Alternative to the official API](https://rexrainbow.github.io/phaser3-rex-notes/docs/site/index.html) (replace 'scene' by 'this' in his examples to make it work, or so it seems)
 
