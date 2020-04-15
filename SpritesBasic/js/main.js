@@ -30,22 +30,20 @@
 function preload(){
     this.load.image("dude", "images/phaser-dude.png");
     this.load.image("logo", "images/phaser3-logo.png");
-    this.load.image("logo", "images/metalslug_monster39x40.png");
 }
 
 /**
  * The two images are created here. 
  * 
- * Images? Yes. Actual Sprites, as Phaser defines them, can play animations.
+ * Images? Yes, images. Sprites exist as well and they, as Phaser defines them, can play animations. 
  * As this demo does not use that feature, the more lightweight Image is used (less strain on your poor CPU)
+ * Technically, in this example you can replace 'image' with 'sprite' and it would work just the same.
  * 
- * The two images are created the two ways possible/intended:
+ * The two images are created using both factories (as described at the top):
  *   - One using the 'normal' Game Objects Factory
  *   - One using the Physics Game Object Factory
  * 
- * Technically, in this example you can replace 'image' with 'sprite' and it would work just the same.
- * 
- * As the images are created and then nothing is being done to them anymore,
+ * As the images are created within this function and nothing else referring to them anymore,
  *   there is no need for variables outside this function
  */
 function create() {
