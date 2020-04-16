@@ -65,6 +65,7 @@ Another source of assets is <http://labs.phaser.io/assets/>. Don't think I would
 
 * [Spritesheets](https://github.com/manno-xx/Phaser3CMD/tree/master/Spritesheets) A basic demo of letting a sprite run an animation from a sprite sheet.
 * [SineAnimation](https://github.com/manno-xx/Phaser3CMD/tree/master/SineAnimation) Example of how to use the mathematical sine function to make something move smoothly (the math is minimal!).
+* [TweenAnimation](https://github.com/manno-xx/Phaser3CMD/tree/master/TweenAnimation) A simple demo of tweens.
 
 ### Week 3
 
@@ -101,3 +102,4 @@ Below are all the examples from this repository with a note exaplaing what the e
 * [SIngleSceneTemplate](https://github.com/manno-xx/Phaser3CMD/tree/master/SIngleSceneTemplate) A template you can use to build a Phaser project with just a single scene (most likey just for testing something)
 * [Spritesheets](https://github.com/manno-xx/Phaser3CMD/tree/master/Spritesheets) A basic demo of letting a sprite run an animation from a sprite sheet.
 * [SpritesBasic](https://github.com/manno-xx/Phaser3CMD/tree/master/SpritesBasic) A simple display of sprites/images.
+* [TweenAnimation](https://github.com/manno-xx/Phaser3CMD/tree/master/TweenAnimation) A simple demo of tweens.
