@@ -15,10 +15,11 @@ In case you know Phaser 2, in the two newsletters linked to below, there is a mi
 
 ## Building on prior knowledge
 
-This repository is used in a course which is preceeded by a course on P5JS (using mainly [Khan Academy's Intro to JS: Drawing and Animation](https://www.khanacademy.org/computing/computer-programming/programming). In that course, there was no ES6 used so, this repository tries to avoid ES6 features unless there is no easy alternative. So:
+This repository is used in a course which is preceeded by a course on the Programming Basics using P5JS (using mainly [Khan Academy's Intro to JS: Drawing and Animation](https://www.khanacademy.org/computing/computer-programming/programming). In that course, there was no ES6 used so, this repository tries to avoid ES6 features unless there is no easy alternative. So:
 
-* the examples use var over let.
+* the examples use var over let and const etc.
 * the examples will use object literals where possible over classes.
+* (and probably more)
 
 There _may_ be ES6 examples. Just because ES6 is there and for a reason. Those examples will be marked as such in the list below.
 
@@ -59,7 +60,6 @@ Another source of assets is <http://labs.phaser.io/assets/>. Don't think I would
 * [KeyboardInteraction](https://github.com/manno-xx/Phaser3CMD/tree/master/KeyboardInteraction) Pressing a key and have Phaser respond only once, even if you keep it pressed.
 * [KeyIsDown](https://github.com/manno-xx/Phaser3CMD/tree/master/KeyIsDown) Check if a certain key is pressed and act upon it. A simplified version of CursorKeys
 * [KeyIsDownWithInterval](https://github.com/manno-xx/Phaser3CMD/tree/master/KeyIsDownWithInterval) Check if a certain key is pressed and act upon it. The check only returns true if an indicated time has passed since the lat time the check returned true.
-
 
 ### Week 2
 
