@@ -28,7 +28,7 @@ function create() {
 function update() {
     // change this to make it move higher and lower (or less)
     var amplitude = 30;
-    // the scene keeps track of time. this.time.now is the time in milliseconds since the scene started.
+    // this.time.now is the time in milliseconds since the scene started.
     var sine = Math.sin(this.time.now / 1000);
     var displacement = sine * amplitude;
     logo.y = logoY + displacement;
