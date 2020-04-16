@@ -63,7 +63,7 @@ Another source of assets is <http://labs.phaser.io/assets/>. Don't think I would
 
 ### Week 2
 
-* [SpritesAnimated](https://github.com/manno-xx/Phaser3CMD/tree/master/SpritesAnimated) A basic demo of letting a sprite run an animation from a sprite sheet.
+* [Spritessheets](https://github.com/manno-xx/Phaser3CMD/tree/master/Spritessheets) A basic demo of letting a sprite run an animation from a sprite sheet.
 * Animations
 
 ### Week 3
@@ -91,12 +91,12 @@ Below are all the examples from this repository with a note exaplaing what the e
 
 * [BasicPhysicsColliderImages](https://github.com/manno-xx/Phaser3CMD/tree/master/BasicPhysicsColliderImages) A very basic physics setup using an image and a tiled sprite (repeating image in a single sprite) The physics setup is that of collision and 'normal, real life response'.
 * [BasicPhysicsColliderShapes](https://github.com/manno-xx/Phaser3CMD/tree/master/BasicPhysicsColliderShapes) A very basic physics setup using only graphic shapes. The physics setup is that of collision and 'normal, real life response').
-* [SIngleSceneTemplate](https://github.com/manno-xx/Phaser3CMD/tree/master/SIngleSceneTemplate) A template you can use to build a Phaser project with just a single scene (most likey just for testing something)
+* [CursorKeys](https://github.com/manno-xx/Phaser3CMD/tree/master/CursorKeys) How to respond to the cursor keys to control some in-game object.
 * [KeyboardInteraction](https://github.com/manno-xx/Phaser3CMD/tree/master/KeyboardInteraction) Pressing a key and have Phaser respond only once, even if you keep it pressed.
 * [KeyIsDown](https://github.com/manno-xx/Phaser3CMD/tree/master/KeyIsDown) Check if a certain key is pressed and act upon it. A simplified version of CursorKeys
 * [KeyIsDownWithInterval](https://github.com/manno-xx/Phaser3CMD/tree/master/KeyIsDownWithInterval) Check if a certain key is pressed and act upon it. The check only returns true if an indicated time has passed since the lat time the check returned true.
 * [MultiSceneTemplate](https://github.com/manno-xx/Phaser3CMD/tree/master/MultiSceneTemplate) A template you can use to build a Phaser project using multiple scenes. For the more serious projects.
-* [CursorKeys](https://github.com/manno-xx/Phaser3CMD/tree/master/CursorKeys) How to respond to the cursor keys to control some in-game object.
 * [MultiSceneTemplateClass](https://github.com/manno-xx/Phaser3CMD/tree/master/MultiSceneTemplateClass) (ES6) A template you can use to build a Phaser project using multiple scenes. For the more serious projects and people liking to work with classes.
-* [SpritesAnimated](https://github.com/manno-xx/Phaser3CMD/tree/master/SpritesAnimated) A basic demo of letting a sprite run an animation from a sprite sheet.
+* [SIngleSceneTemplate](https://github.com/manno-xx/Phaser3CMD/tree/master/SIngleSceneTemplate) A template you can use to build a Phaser project with just a single scene (most likey just for testing something)
+* [Spritessheets](https://github.com/manno-xx/Phaser3CMD/tree/master/Spritessheets) A basic demo of letting a sprite run an animation from a sprite sheet.
 * [SpritesBasic](https://github.com/manno-xx/Phaser3CMD/tree/master/SpritesBasic) A simple display of sprites/images.
