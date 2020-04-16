@@ -63,7 +63,7 @@ Another source of assets is <http://labs.phaser.io/assets/>. Don't think I would
 
 ### Week 2
 
-* [Spritessheets](https://github.com/manno-xx/Phaser3CMD/tree/master/Spritessheets) A basic demo of letting a sprite run an animation from a sprite sheet.
+* [Spritesheets](https://github.com/manno-xx/Phaser3CMD/tree/master/Spritesheets) A basic demo of letting a sprite run an animation from a sprite sheet.
 * Animations
 
 ### Week 3
@@ -98,5 +98,5 @@ Below are all the examples from this repository with a note exaplaing what the e
 * [MultiSceneTemplate](https://github.com/manno-xx/Phaser3CMD/tree/master/MultiSceneTemplate) A template you can use to build a Phaser project using multiple scenes. For the more serious projects.
 * [MultiSceneTemplateClass](https://github.com/manno-xx/Phaser3CMD/tree/master/MultiSceneTemplateClass) (ES6) A template you can use to build a Phaser project using multiple scenes. For the more serious projects and people liking to work with classes.
 * [SIngleSceneTemplate](https://github.com/manno-xx/Phaser3CMD/tree/master/SIngleSceneTemplate) A template you can use to build a Phaser project with just a single scene (most likey just for testing something)
-* [Spritessheets](https://github.com/manno-xx/Phaser3CMD/tree/master/Spritessheets) A basic demo of letting a sprite run an animation from a sprite sheet.
+* [Spritesheets](https://github.com/manno-xx/Phaser3CMD/tree/master/Spritesheets) A basic demo of letting a sprite run an animation from a sprite sheet.
 * [SpritesBasic](https://github.com/manno-xx/Phaser3CMD/tree/master/SpritesBasic) A simple display of sprites/images.
