@@ -15,7 +15,7 @@ In case you know Phaser 2, in the two newsletters linked to below, there is a mi
 
 ## Building on prior knowledge
 
-This repository is used in a course which is preceeded by a course on the Programming Basics using P5JS (using mainly [Khan Academy's Intro to JS: Drawing and Animation](https://www.khanacademy.org/computing/computer-programming/programming). In that course, there was no ES6 used so, this repository tries to avoid ES6 features unless there is no easy alternative. So:
+This repository is used in a course which is preceded by a course on the Programming Basics using P5JS (using mainly [Khan Academy's Intro to JS: Drawing and Animation](https://www.khanacademy.org/computing/computer-programming/programming). In that course, there was no ES6 used so, this repository tries to avoid ES6 features unless there is no easy alternative. So:
 
 * the examples use var over let and const etc.
 * the examples will use object literals where possible over classes.
