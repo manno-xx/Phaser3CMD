@@ -14,6 +14,9 @@
 // The phaser logo that will be controlled by the cursorkeys
 var phaserLogo;
 
+// refers to the object with the four cursorkeys in it
+var cursors;
+
 /**
  * Preload load the single asset used in this demo
  */
