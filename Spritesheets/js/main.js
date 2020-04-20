@@ -42,7 +42,7 @@ function preload() {
  */
 function create() {
     this.add.image(400, 100, "logo");
-
+    
     // the monster first.
     // its spritesheet is just one long animation
     var monsterAnimationConfig = {
