@@ -5,9 +5,6 @@
  *   A ball bounces on the floor.
  * 
  * After creating the graphic elements, Phaser is told to monitor for collisions and act accordingly
- * 
- * In update() Phaser is told to check collisions between the ball and the floor.
- *   If such a collision takes place, Phaser makes things behave as in the 'real world'
  *
  * The ball, by the way, also is told to bounce with the edges of the world. This way it cannot leave the screen permanently.
  */
@@ -41,7 +38,14 @@ function create() {
     floor.body.allowGravity = false;
     floor.body.immovable = true;
 
-    // this line makes sure that the ball and floor behave as expected when they collide
+    
+    /**
+     * this line makes sure that the ball and floor behave as expected when they collide
+     * the collider method monitors collision between the two parameters 
+     *   and makes them behave in a 'natural' way when a collision is detected
+     * 
+     * https://photonstorm.github.io/phaser3-docs/Phaser.Physics.Arcade.World.html#collide__anchor
+     */
     this.physics.add.collider(ball, floor);
 }
 
