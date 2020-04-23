@@ -50,7 +50,7 @@ Another source of assets is <http://labs.phaser.io/assets/>. Don't think I would
 
 * [SIngleSceneTemplate](https://github.com/manno-xx/Phaser3CMD/tree/master/SIngleSceneTemplate) A template you can use to build a Phaser project with just a single scene (most likey just for testing something)
 * [MultiSceneTemplate](https://github.com/manno-xx/Phaser3CMD/tree/master/MultiSceneTemplate) A template you can use to build a Phaser project using multiple scenes. For the more serious projects.
-* [MultiSceneTemplateClass](https://github.com/manno-xx/Phaser3CMD/tree/master/MultiSceneTemplateClass) (ES6) A template you can use to build a Phaser project using multiple scenes. For the more serious projects and people liking to work with classes.
+* [MultiSceneTemplateClass](https://github.com/manno-xx/Phaser3CMD/tree/master/MultiSceneTemplateClass) (**ES6**) A template you can use to build a Phaser project using multiple scenes. For the more serious projects and people liking to work with classes.
 
 ### Week 1
 
@@ -81,7 +81,7 @@ Another source of assets is <http://labs.phaser.io/assets/>. Don't think I would
 
 ### Week 5
 
-* --
+* [DataEvent](https://github.com/manno-xx/Phaser3CMD/tree/master/DataEvent) (**ES6**) Game objects can store their own data ('custom properties') When they change value, you can get notified by an event.
 
 ### Week 6
 
@@ -95,11 +95,12 @@ Below are all the examples from this repository with a note exaplaing what the e
 * [BasicPhysicsColliderShapes](https://github.com/manno-xx/Phaser3CMD/tree/master/BasicPhysicsColliderShapes) A very basic physics setup using only graphic shapes. The physics setup is that of collision and 'normal, real life response').
 * [Button](https://github.com/manno-xx/Phaser3CMD/tree/master/Button) Demo of a button that responds to mouseover/out and down.
 * [CursorKeys](https://github.com/manno-xx/Phaser3CMD/tree/master/CursorKeys) How to respond to the cursor keys to control some in-game object.
+* [DataEvent](https://github.com/manno-xx/Phaser3CMD/tree/master/DataEvent) (**ES6**) Game objects can store their own data ('custom properties') When they change value, you can get notified by an event.
 * [KeyboardInteraction](https://github.com/manno-xx/Phaser3CMD/tree/master/KeyboardInteraction) Pressing a key and have Phaser respond only once, even if you keep it pressed.
 * [KeyIsDown](https://github.com/manno-xx/Phaser3CMD/tree/master/KeyIsDown) Check if a certain key is pressed and act upon it. A simplified version of CursorKeys
 * [KeyIsDownWithInterval](https://github.com/manno-xx/Phaser3CMD/tree/master/KeyIsDownWithInterval) Check if a certain key is pressed and act upon it. The check only returns true if an indicated time has passed since the lat time the check returned true.
 * [MultiSceneTemplate](https://github.com/manno-xx/Phaser3CMD/tree/master/MultiSceneTemplate) A template you can use to build a Phaser project using multiple scenes. For the more serious projects.
-* [MultiSceneTemplateClass](https://github.com/manno-xx/Phaser3CMD/tree/master/MultiSceneTemplateClass) (ES6) A template you can use to build a Phaser project using multiple scenes. For the more serious projects and people liking to work with classes.
+* [MultiSceneTemplateClass](https://github.com/manno-xx/Phaser3CMD/tree/master/MultiSceneTemplateClass) (**ES6**) A template you can use to build a Phaser project using multiple scenes. For the more serious projects and people liking to work with classes.
 * [SineAnimation](https://github.com/manno-xx/Phaser3CMD/tree/master/SineAnimation) Example of how to use the mathematical sine function to make something move smoothly (the math is minimal!).
 * [SIngleSceneTemplate](https://github.com/manno-xx/Phaser3CMD/tree/master/SIngleSceneTemplate) A template you can use to build a Phaser project with just a single scene (most likey just for testing something)
 * [Spritesheets](https://github.com/manno-xx/Phaser3CMD/tree/master/Spritesheets) A basic demo of letting a sprite run an animation from a sprite sheet.
