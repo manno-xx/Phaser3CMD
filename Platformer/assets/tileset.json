@@ -1,0 +1,39 @@
+{"frames": [
+
+{
+	"filename": "platformPack_tile026.png",
+	"frame": {"x":0,"y":0,"w":64,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":64},
+	"sourceSize": {"w":64,"h":64},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "platformPack_tile034.png",
+	"frame": {"x":64,"y":0,"w":64,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":64},
+	"sourceSize": {"w":64,"h":64},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "platformPack_tile043.png",
+	"frame": {"x":128,"y":0,"w":64,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":64},
+	"sourceSize": {"w":64,"h":64},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "tileset.png",
+	"format": "RGBA8888",
+	"size": {"w":192,"h":64},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:2f6ea6d06b9f8a8a21a49ef039be695d:d24a3e897efd08a21dd0f70919d4ca0d:ace0e5e82375743ccde85e973fd84fb5$"
+}
+}

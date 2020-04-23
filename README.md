@@ -72,7 +72,7 @@ Another source of assets is <http://labs.phaser.io/assets/>. Don't think I would
 ### Week 3
 
 * [Tilemap](https://github.com/manno-xx/Phaser3CMD/tree/master/Tilemap) A simple demo of drawing a tilemap.
-* tilemaps with collision
+* [Platformer](https://github.com/manno-xx/Phaser3CMD/tree/master/Platformer) A demo of a tile map inclusing collisions with platfroms and less friendly tiles.
 * layerd tilemaps
 * Camera
 
@@ -104,6 +104,7 @@ Below are all the examples from this repository with a note exaplaing what the e
 * [MultiSceneTemplate](https://github.com/manno-xx/Phaser3CMD/tree/master/MultiSceneTemplate) A template you can use to build a Phaser project using multiple scenes. For the more serious projects.
 * [MultiSceneTemplateClass](https://github.com/manno-xx/Phaser3CMD/tree/master/MultiSceneTemplateClass) (**ES6**) A template you can use to build a Phaser project using multiple scenes. For the more serious projects and people liking to work with classes.
 * [PhaserHelloWorld](https://github.com/manno-xx/Phaser3CMD/tree/master/PhaserHelloWorld) The backdrop of some videos on Blackboard. Copy of Phaser's Getting started tutorial. Modified to go fullscreen (in Chrome at least).
+* [Platformer](https://github.com/manno-xx/Phaser3CMD/tree/master/Platformer) A demo of a tile map inclusing collisions with platfroms and less friendly tiles.
 * [SineAnimation](https://github.com/manno-xx/Phaser3CMD/tree/master/SineAnimation) Example of how to use the mathematical sine function to make something move smoothly (the math is minimal!).
 * [SIngleSceneTemplate](https://github.com/manno-xx/Phaser3CMD/tree/master/SIngleSceneTemplate) A template you can use to build a Phaser project with just a single scene (most likey just for testing something)
 * [Spritesheets](https://github.com/manno-xx/Phaser3CMD/tree/master/Spritesheets) A basic demo of letting a sprite run an animation from a sprite sheet.
