@@ -56,10 +56,10 @@ function create() {
     // .make is used for elements that are not visualised (the tilemap itself is not visualised, its layers are)
     var map = this.make.tilemap({
         key: "map", // refers to the loaded JSON file (see above)
-        tileWidth: 64, // the width of an individual tile
-        tileHeight: 64, // the height of an individual tile
-        width: 16, // the columns in the map
-        height: 8, // the rows in the map
+        // tileWidth: 64, // the width of an individual tile
+        // tileHeight: 64, // the height of an individual tile
+        // width: 16, // the columns in the map
+        // height: 8, // the rows in the map
     });
 
     // the map is given a reference to the tileset to use ("tileset" is the key used in preload)
@@ -73,6 +73,7 @@ function create() {
     var trapLayer = map.createStaticLayer("death", tileset, 0, 0);
 
     platforms.setCollisionByProperty({ collidable: true });
+    // platforms.setCollisionBetween(0, 2);
     trapLayer.setCollisionByProperty({ damage: true });
 
     // let phaser find the object named "spawn-point" in the spawn point layer
@@ -120,12 +121,28 @@ function doDamage(player, tile) {
  * Updates the game
  */
 function update() {
+
+    /* 
+      The familiar movement code below actually breaks sideways collision
+      Phaser just moves the sprite according to the code below, 
+      even though it may register a collision with a wall or something
+      So... We have to move the dude the 'Physics-way' (see code below commented bit)
+     */
+    // if (cursors.right.isDown) {
+    //     dude.x++;
+    // }
+    // if (cursors.left.isDown) {
+    //     dude.x--;
+    // }
+
+    dude.body.velocity.x = 0;
     if (cursors.right.isDown) {
-        dude.x++;
+        dude.body.velocity.x = 30;
     }
     if (cursors.left.isDown) {
-        dude.x--;
+        dude.body.velocity.x = -30;
     }
+
 }
 
 /**
