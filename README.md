@@ -53,6 +53,7 @@ Another source of assets is <http://labs.phaser.io/assets/>. Don't think I would
 * [MultiSceneTemplate](https://github.com/manno-xx/Phaser3CMD/tree/master/MultiSceneTemplate) A template you can use to build a Phaser project using multiple scenes. For the more serious projects.
 * [MultiSceneTemplateClass](https://github.com/manno-xx/Phaser3CMD/tree/master/MultiSceneTemplateClass) (**ES6**) A template you can use to build a Phaser project using multiple scenes. For the more serious projects and people liking to work with classes.
 * [PhaserHelloWorld](https://github.com/manno-xx/Phaser3CMD/tree/master/PhaserHelloWorld) The backdrop of some videos on Blackboard. Copy of Phaser's Getting started tutorial. Modified to go fullscreen (in Chrome at least).
+* [CovidSimulation](https://github.com/manno-xx/Phaser3CMD/tree/master/CovidSimulation) (**ES6**)Simulation of spreading (COVID-19) infectious desease. With adjustible parameters.
 
 ### Week 1
 
@@ -74,8 +75,7 @@ Another source of assets is <http://labs.phaser.io/assets/>. Don't think I would
 
 * [Tilemap](https://github.com/manno-xx/Phaser3CMD/tree/master/Tilemap) A simple demo of drawing a tilemap.
 * [Platformer](https://github.com/manno-xx/Phaser3CMD/tree/master/Platformer) A demo of a tile map inclusing collisions with platfroms and less friendly tiles.
-* layerd tilemaps
-* Camera
+* [TopviewTilemap](https://github.com/manno-xx/Phaser3CMD/tree/master/TopviewTilemap) Demo of tilemaps. Including multiple layers, collision with parts of layers and camera following a sprite
 
 ### Week 4
 
