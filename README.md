@@ -97,6 +97,7 @@ Below are all the examples from this repository with a note exaplaing what the e
 * [BasicPhysicsColliderImages](https://github.com/manno-xx/Phaser3CMD/tree/master/BasicPhysicsColliderImages) A very basic physics setup using an image and a tiled sprite (repeating image in a single sprite) The physics setup is that of collision and 'normal, real life response'.
 * [BasicPhysicsColliderShapes](https://github.com/manno-xx/Phaser3CMD/tree/master/BasicPhysicsColliderShapes) A very basic physics setup using only graphic shapes. The physics setup is that of collision and 'normal, real life response').
 * [Button](https://github.com/manno-xx/Phaser3CMD/tree/master/Button) Demo of a button that responds to mouseover/out and down.
+* [CovidSimulation](https://github.com/manno-xx/Phaser3CMD/tree/master/CovidSimulation) (**ES6**)Simulation of spreading (COVID-19) infectious desease. With adjustible parameters.
 * [CursorKeys](https://github.com/manno-xx/Phaser3CMD/tree/master/CursorKeys) How to respond to the cursor keys to control some in-game object.
 * [DataEvent](https://github.com/manno-xx/Phaser3CMD/tree/master/DataEvent) (**ES6**) Game objects can store their own data ('custom properties') When they change value, you can get notified by an event.
 * [KeyboardInteraction](https://github.com/manno-xx/Phaser3CMD/tree/master/KeyboardInteraction) Pressing a key and have Phaser respond only once, even if you keep it pressed.
@@ -111,4 +112,5 @@ Below are all the examples from this repository with a note exaplaing what the e
 * [Spritesheets](https://github.com/manno-xx/Phaser3CMD/tree/master/Spritesheets) A basic demo of letting a sprite run an animation from a sprite sheet.
 * [SpritesBasic](https://github.com/manno-xx/Phaser3CMD/tree/master/SpritesBasic) A simple display of sprites/images.
 * [Tilemap](https://github.com/manno-xx/Phaser3CMD/tree/master/Tilemap) A simple demo of drawing a tilemap.
+* [TopviewTilemap](https://github.com/manno-xx/Phaser3CMD/tree/master/TopviewTilemap) Demo of tilemaps. Including multiple layers, collision with parts of layers and camera following a sprite
 * [TweenAnimation](https://github.com/manno-xx/Phaser3CMD/tree/master/TweenAnimation) A simple demo of tweens.
