@@ -39,15 +39,41 @@ function create(){
     // 1. let the physics system create a sprite
     // 2. let the layer of trees be 'collidable' for the tiles that have that property set to true
     // 3. tell phaser to watch out for collisions between the character sprite and the collidable parts of the tree layer
-    dude = this.physics.add.sprite(200, 200, "dude");
+    dude = this.physics.add.sprite(800, 600, "dude");
     treeLayer.setCollisionByProperty({collidable: true});
     this.physics.add.collider(dude, treeLayer);
+
+
+    console.log(this.cameras.main.scrollX);
 
     // Camera:
     // 1. limit its movements to the map's boundaries
     // 2. tell the camera which sprite to follow
     this.cameras.main.setBounds(0, 0, map.width * map.tileWidth, map.height * map.tileHeight);
     this.cameras.main.startFollow(dude);
+
+    console.log(this.cameras.main.scrollX, this.cameras.main.centerX);
+
+    // Tween
+    // add text, fade out using tween, remove from scene after fade is done
+    var text = this.add.text(dude.x, dude.y - 50, "use space bar and arrow keys").setOrigin(0.5, 0.5);
+    var tween = this.tweens.add({
+        delay: 5000,
+        targets: text,
+        alpha: 0,
+        ease: 'Power1',
+        duration: 1000
+    });
+    tween.on('complete', fadeDone); 
+}
+
+/**
+ * Removes the tweened game object
+ * @param {Twween} tween The tween that triggered this event handler
+ * @param {Array} targets The targets that were tweened by the tween
+ */
+function fadeDone(tween, targets){
+    targets[0].destroy();
 }
 
 function update(){
