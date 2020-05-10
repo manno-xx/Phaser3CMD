@@ -48,9 +48,11 @@ function create(){
 
     // Camera:
     // 1. limit its movements to the map's boundaries
-    // 2. tell the camera which sprite to follow
+    // 2. Tell the camera to ignore the character's movement if it is in the center of the screen (deadzone)
+    // 3. tell the camera which sprite to follow with a certain drag
     this.cameras.main.setBounds(0, 0, map.width * map.tileWidth, map.height * map.tileHeight);
-    this.cameras.main.startFollow(dude);
+    this.cameras.main.setDeadzone(200, 150);
+    this.cameras.main.startFollow(dude, false, 0.1, 0.1);
 
     console.log(this.cameras.main.scrollX, this.cameras.main.centerX);
 
