@@ -34,10 +34,6 @@ function create() {
     // .make is used for elements that are not visualised (the tilemap itself is not visualised, its layers are)
     var map = this.make.tilemap({
         key: "map",                 // refers to the loaded JSON file (see above)
-        tileWidth: 64,              // the width of an individual tile
-        tileHeight: 64,             // the height of an individual tile
-        width: 16,                  // the columns in the map
-        height: 8,                  // the rows in the map
     });
 
     // the map is given a reference to the tileset to use ("tileset" is the key used in preload)
@@ -55,8 +51,8 @@ function create() {
  */
 var config = {
     type: Phaser.AUTO,
-    width: 800,
-    height: 600,
+    width: 1024,
+    height: 512,
     scene: {
         preload: preload,
         create: create,
