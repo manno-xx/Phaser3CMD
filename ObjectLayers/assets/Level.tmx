@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="16" height="8" tilewidth="64" tileheight="64" infinite="0" nextobjectid="10">
+ <tileset firstgid="1" name="tileset" tilewidth="64" tileheight="64" tilecount="3" columns="3">
+  <image source="tileset.png" width="192" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+    <property name="hurtful" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+    <property name="hurtful" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="collidable" type="bool" value="false"/>
+    <property name="hurtful" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="platforms" width="16" height="8">
+  <data encoding="csv">
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,
+2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,
+2,0,0,0,0,0,0,0,0,1,1,1,1,1,1,2,
+2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,
+2,1,1,1,1,1,1,0,0,0,0,0,0,0,0,2,
+2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
+</data>
+ </layer>
+ <objectgroup name="spawn">
+  <object id="9" name="player" x="157.333" y="208">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup name="coins">
+  <object id="1" name="coin" x="865.333" y="149.333">
+   <point/>
+  </object>
+  <object id="2" name="coin" x="545.333" y="160">
+   <point/>
+  </object>
+  <object id="3" name="coin" x="354.667" y="226.667">
+   <point/>
+  </object>
+  <object id="4" name="coin" x="157.334" y="302.666">
+   <point/>
+  </object>
+  <object id="6" name="coin" x="673.333" y="357.333">
+   <point/>
+  </object>
+ </objectgroup>
+</map>
