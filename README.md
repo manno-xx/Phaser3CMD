@@ -54,6 +54,7 @@ Another source of assets is <http://labs.phaser.io/assets/>. Don't think I would
 * [MultiSceneTemplateClass](https://github.com/manno-xx/Phaser3CMD/tree/master/MultiSceneTemplateClass) (**ES6**) A template you can use to build a Phaser project using multiple scenes. For the more serious projects and people liking to work with classes.
 * [PhaserHelloWorld](https://github.com/manno-xx/Phaser3CMD/tree/master/PhaserHelloWorld) The backdrop of some videos on Blackboard. Copy of Phaser's Getting started tutorial. Modified to go fullscreen (in Chrome at least).
 * [CovidSimulation](https://github.com/manno-xx/Phaser3CMD/tree/master/CovidSimulation) (**ES6**)Simulation of spreading (COVID-19) infectious desease. With adjustible parameters.
+* [Parallax](https://github.com/manno-xx/Phaser3CMD/tree/master/Parallax) Looks like the second backdrop used in the videos. Demonstrates the parallax effect using tileSprites
 
 ### Week 1
 
@@ -76,11 +77,17 @@ Another source of assets is <http://labs.phaser.io/assets/>. Don't think I would
 * [Tilemap](https://github.com/manno-xx/Phaser3CMD/tree/master/Tilemap) A simple demo of drawing a tilemap.
 * [Platformer](https://github.com/manno-xx/Phaser3CMD/tree/master/Platformer) A demo of a tile map inclusing collisions with platfroms and less friendly tiles.
 * [TopviewTilemap](https://github.com/manno-xx/Phaser3CMD/tree/master/TopviewTilemap) Demo of tilemaps. Including multiple layers, collision with parts of layers and camera following a sprite
+* [ObjectLayers](https://github.com/manno-xx/Phaser3CMD/tree/master/ObjectLayers) Demo of adding object to a world built in Tiled
+* [CameraFX](https://github.com/manno-xx/Phaser3CMD/tree/master/CameraFX) Demo of some 'special fx' with the camera
 
 ### Week 4
 
 * [BasicPhysicsColliderImages](https://github.com/manno-xx/Phaser3CMD/tree/master/BasicPhysicsColliderImages) A very basic physics setup using an image and a tiled sprite (repeating image in a single sprite) The physics setup is that of collision and 'normal, real life response'.
 * [BasicPhysicsColliderShapes](https://github.com/manno-xx/Phaser3CMD/tree/master/BasicPhysicsColliderShapes) A very basic physics setup using only graphic shapes. The physics setup is that of collision and 'normal, real life response').
+* [CovidSimulation](https://github.com/manno-xx/Phaser3CMD/tree/master/CovidSimulation) (**ES6**)Simulation of spreading (COVID-19) infectious desease. With adjustible parameters.
+* [Platformer](https://github.com/manno-xx/Phaser3CMD/tree/master/Platformer) A demo of a tile map inclusing collisions with platfroms and less friendly tiles.
+* [TilesOverlap](https://github.com/manno-xx/Phaser3CMD/tree/master/TilesOverlap) How to deal damage per time unit when touching 'bad' things
+* [TopviewTilemap](https://github.com/manno-xx/Phaser3CMD/tree/master/TopviewTilemap) Demo of tilemaps. Including multiple layers, collision with parts of layers and camera following a sprite
 
 ### Week 5
 
@@ -97,6 +104,7 @@ Below are all the examples from this repository with a note exaplaing what the e
 * [BasicPhysicsColliderImages](https://github.com/manno-xx/Phaser3CMD/tree/master/BasicPhysicsColliderImages) A very basic physics setup using an image and a tiled sprite (repeating image in a single sprite) The physics setup is that of collision and 'normal, real life response'.
 * [BasicPhysicsColliderShapes](https://github.com/manno-xx/Phaser3CMD/tree/master/BasicPhysicsColliderShapes) A very basic physics setup using only graphic shapes. The physics setup is that of collision and 'normal, real life response').
 * [Button](https://github.com/manno-xx/Phaser3CMD/tree/master/Button) Demo of a button that responds to mouseover/out and down.
+* [CameraFX](https://github.com/manno-xx/Phaser3CMD/tree/master/CameraFX) Demo of some 'special fx' with the camera
 * [CovidSimulation](https://github.com/manno-xx/Phaser3CMD/tree/master/CovidSimulation) (**ES6**)Simulation of spreading (COVID-19) infectious desease. With adjustible parameters.
 * [CursorKeys](https://github.com/manno-xx/Phaser3CMD/tree/master/CursorKeys) How to respond to the cursor keys to control some in-game object.
 * [DataEvent](https://github.com/manno-xx/Phaser3CMD/tree/master/DataEvent) (**ES6**) Game objects can store their own data ('custom properties') When they change value, you can get notified by an event.
@@ -105,12 +113,15 @@ Below are all the examples from this repository with a note exaplaing what the e
 * [KeyIsDownWithInterval](https://github.com/manno-xx/Phaser3CMD/tree/master/KeyIsDownWithInterval) Check if a certain key is pressed and act upon it. The check only returns true if an indicated time has passed since the lat time the check returned true.
 * [MultiSceneTemplate](https://github.com/manno-xx/Phaser3CMD/tree/master/MultiSceneTemplate) A template you can use to build a Phaser project using multiple scenes. For the more serious projects.
 * [MultiSceneTemplateClass](https://github.com/manno-xx/Phaser3CMD/tree/master/MultiSceneTemplateClass) (**ES6**) A template you can use to build a Phaser project using multiple scenes. For the more serious projects and people liking to work with classes.
+* [ObjectLayers](https://github.com/manno-xx/Phaser3CMD/tree/master/ObjectLayers) Demo of adding object to a world built in Tiled
+* [Parallax](https://github.com/manno-xx/Phaser3CMD/tree/master/Parallax) Looks like the second backdrop used in the videos. Demonstrates the parallax effect using tileSprites
 * [PhaserHelloWorld](https://github.com/manno-xx/Phaser3CMD/tree/master/PhaserHelloWorld) The backdrop of some videos on Blackboard. Copy of Phaser's Getting started tutorial. Modified to go fullscreen (in Chrome at least).
 * [Platformer](https://github.com/manno-xx/Phaser3CMD/tree/master/Platformer) A demo of a tile map inclusing collisions with platfroms and less friendly tiles.
 * [SineAnimation](https://github.com/manno-xx/Phaser3CMD/tree/master/SineAnimation) Example of how to use the mathematical sine function to make something move smoothly (the math is minimal!).
 * [SIngleSceneTemplate](https://github.com/manno-xx/Phaser3CMD/tree/master/SIngleSceneTemplate) A template you can use to build a Phaser project with just a single scene (most likey just for testing something)
-* [Spritesheets](https://github.com/manno-xx/Phaser3CMD/tree/master/Spritesheets) A basic demo of letting a sprite run an animation from a sprite sheet.
 * [SpritesBasic](https://github.com/manno-xx/Phaser3CMD/tree/master/SpritesBasic) A simple display of sprites/images.
+* [Spritesheets](https://github.com/manno-xx/Phaser3CMD/tree/master/Spritesheets) A basic demo of letting a sprite run an animation from a sprite sheet.
 * [Tilemap](https://github.com/manno-xx/Phaser3CMD/tree/master/Tilemap) A simple demo of drawing a tilemap.
+* [TilesOverlap](https://github.com/manno-xx/Phaser3CMD/tree/master/TilesOverlap) How to deal damage per time unit when touching 'bad' things
 * [TopviewTilemap](https://github.com/manno-xx/Phaser3CMD/tree/master/TopviewTilemap) Demo of tilemaps. Including multiple layers, collision with parts of layers and camera following a sprite
 * [TweenAnimation](https://github.com/manno-xx/Phaser3CMD/tree/master/TweenAnimation) A simple demo of tweens.
