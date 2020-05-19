@@ -78,7 +78,7 @@ function create()
         //Set static, and set the correct frame for visual
         sprite.setStatic(true);
         sprite.setFrame(1);
-    })
+    });
 
     player.setBounce(0.7);
 
@@ -92,13 +92,13 @@ function create()
  */
 function offsetObjectPosition(object){
     const degToRad = Math.PI / 180;
-    
-    var offsetX = Math.cos(object.rotation * degToRad) * object.width * 0.5;
-    var offsetY = Math.sin(object.rotation * degToRad) * object.width * 0.5;
-    offsetX += Math.cos((-90 + object.rotation) * degToRad) * object.height * 0.5;
-    offsetY += Math.sin((-90 + object.rotation) * degToRad) * object.height * 0.5;
-    object.x += offsetX;
-    object.y += offsetY;
+    //Create vector from pivot of editor(bottom left), to pivot of physics
+    let offset = new Phaser.Math.Vector2(object.width * 0.5, -object.height * 0.5);
+    //Rotate vector
+    offset.rotate(object.rotation * degToRad);
+    //Offset position
+    object.x += offset.x;
+    object.y += offset.y;
 }
 
 /**
