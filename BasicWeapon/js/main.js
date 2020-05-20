@@ -11,6 +11,15 @@
  * https://photonstorm.github.io/phaser3-docs/Phaser.Physics.Arcade.Group.html
  * Groups manage multiple similar elements and can be consideres as advandced arrays
  * 
+ * In this case, the group is asked for the first available bullet.
+ * This happens by using the, maybe counterintuitive, .getFirstDead() method.
+ * The .getFirstDead() method returns the first element that is not active in the game (hence 'dead')
+ * If there _is_ one available, that bullet is used to fire at the target location (here the mouse)
+ * If there is _not_ one available, null is returned and the code checks for that and does not do anything ("... gun goes 'click'"")
+ * In the end, when the bullet is done with its task, it is deactivated again for future use
+ * This resembles/is what they call an object pool: A set of objects to teke one from when needed instead of creating and destroying every time you need and discard one
+ * 
+ * 
  * The project uses so-called vector math to determine the direction the bullet should move in
  * https://www.youtube.com/user/codingmath/search?query=vector 
  * 
