@@ -64,7 +64,7 @@ function create() {
         bullet.disableBody(true, true);
     });
 
-    // tell phaser that the function outOfSight() needs to be called when a collision with the world bounds takes place
+    // tell phaser that the function clearBullet() needs to be called when a collision with the world bounds takes place
     this.physics.world.on("worldbounds", clearBullet, this);
 
     // tell phaser that the function shoot() should be called when a click/mousedown/tap happens
