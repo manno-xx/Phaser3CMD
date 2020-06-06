@@ -45,20 +45,17 @@
              "0":
                 {
                  "collidable":true,
-                 "fadable":false,
-                 "fading":false
+                 "hurtful":false
                 },
              "1":
                 {
                  "collidable":true,
-                 "fadable":false,
-                 "fading":false
+                 "hurtful":false
                 },
              "2":
                 {
                  "collidable":false,
-                 "fadable":true,
-                 "fading":false
+                 "hurtful":true
                 }
             },
          "tilepropertytypes":
@@ -66,20 +63,17 @@
              "0":
                 {
                  "collidable":"bool",
-                 "fadable":"bool",
-                 "fading":"bool"
+                 "hurtful":"bool"
                 },
              "1":
                 {
                  "collidable":"bool",
-                 "fadable":"bool",
-                 "fading":"bool"
+                 "hurtful":"bool"
                 },
              "2":
                 {
                  "collidable":"bool",
-                 "fadable":"bool",
-                 "fading":"bool"
+                 "hurtful":"bool"
                 }
             },
          "tilewidth":64

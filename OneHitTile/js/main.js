@@ -52,7 +52,7 @@ function update() {
         wasOverlapping = false;
     }
 
-    // if there _is_ an overlap, AND there was none before, it is the first time the overlap was registered:
+    // else, if there _is_ an overlap, AND there was none before, it is the first time the overlap was registered:
     // 1. remember that there is an overlap for the next frame/next check if there is an overlap
     // 2. take action! (here a sound and the dude flashing red)
     else if (isOverlapping && !wasOverlapping) {
@@ -63,10 +63,13 @@ function update() {
 
         // make the character flash red indicating the severe pain the spikes deliver 🤕
         // not sure if this is the most optimal way to do this...
+        // a tween that only tweens numbers, not properties of a game object
+        // in the end, with the yoyo, it interpolates between two colors, white and red
+        // the result is applied to the dude sprite as a tint
         this.tweens.addCounter({
             from: 0,
             to: 100,
-            duration: 70,
+            duration: 60,
             onUpdate: function (tween) {
                 var tint = Phaser.Display.Color.Interpolate.ColorWithColor(
                     Phaser.Display.Color.HexStringToColor("#FFFFFF"),
@@ -82,7 +85,7 @@ function update() {
         });
     }
 
-    // the basic controls of the character moving and jumping (yes, the tile spikes are impossible to avoid at the top two floors)
+    // the basic controls of the character moving and jumping (yes, the tile spikes are impossible to avoid at the top floor)
     dude.setVelocityX(0);
 
     if (cursors.left.isDown) {
@@ -105,7 +108,7 @@ function update() {
  * @param {Tile} tile The tile the overlap is registered with
  */
 function checkTileType(dude, tile) {
-    return tile.properties.fadable;
+    return tile.properties.hurtful;
 }
 
 /**
