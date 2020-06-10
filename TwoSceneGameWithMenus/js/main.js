@@ -99,7 +99,7 @@ var game = {
         if (timeLeft <= 0) {
             console.log("moving to the game over scene");
             this.scene.switch("gameOver");
-            // this.scene.stop();
+            this.scene.stop();
         }
     },
 };
