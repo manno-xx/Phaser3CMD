@@ -1,0 +1,29 @@
+{
+  "name": "phaser-typescript-template",
+  "version": "1.0.0",
+  "description": "A phaser project template with typescript",
+  "author": "Eyal Rufeisen",
+  "main": "main.ts",
+  "scripts": {
+    "start": "webpack"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-rc.2",
+    "@babel/plugin-proposal-class-properties": "^7.0.0-rc.2",
+    "@babel/polyfill": "^7.0.0-rc.2",
+    "@babel/preset-env": "^7.0.0-rc.2",
+    "@babel/preset-typescript": "^7.0.0-rc.2",
+    "awesome-typescript-loader": "^3.4.1",
+    "babel-loader": "8.0.0-beta.2",
+    "browser-sync": "^2.18.13",
+    "browser-sync-webpack-plugin": "^1.2.0",
+    "html-webpack-plugin": "^2.30.1",
+    "raw-loader": "^0.5.1",
+    "typescript": "^3.7.4",
+    "webpack": "3.11.0"
+  },
+  "dependencies": {
+    "phaser": "^3.22.0"
+  }
+}
