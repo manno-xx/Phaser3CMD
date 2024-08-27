@@ -21,7 +21,7 @@
     "html-webpack-plugin": "^2.30.1",
     "raw-loader": "^0.5.1",
     "typescript": "^3.7.4",
-    "webpack": "3.11.0"
+    "webpack": "5.94.0"
   },
   "dependencies": {
     "phaser": "^3.22.0"
